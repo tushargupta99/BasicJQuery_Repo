@@ -9,30 +9,6 @@ body {
   margin: 0;
 }
 
-.navbar {
-  background-color: rgb(255, 0, 0, 0.8);
-  display: flex;
-  height: 12vh;
-}
-
-.logo {
-  height: 100%;
-  width: 100px;
-  margin-right: 2vw;
-}
-
-.navbar_item {
-  color: #fff;
-  font-size: 1.5rem;
-  margin: 4vh 2vw 0vh 0vw;
-  text-decoration: none;
-}
-
-.navbar_item:hover {
-  text-decoration: underline;
-  text-shadow: 2px 2px 5px black;
-}
-
 .content {
   font-size: 1.2rem;
   margin: 2rem;
@@ -110,10 +86,6 @@ body {
 @media only screen and (max-width: 400px) {
    :root {
     font-size: 12px;
-  }
-  .logo {
-    height: 95%;
-    width: 90px;
   }
   .accordion {
     padding: 3vh 2vw;
