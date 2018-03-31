@@ -1,12 +1,11 @@
-$(document).ready(function(){
+$(document).ready(function(){ 
     $(".button").click(function(){
-        $(".modal").css("display","flex");
-    })
+        $(".modal").css("display","block");
+    });
    
-})
 
-
-$(".close").click(function(){
-    $(".modal").css("display","none");
+    $(".close").click(function(){
+        $(".modal").css("display","none");
    
-   })
+    });
+});
