@@ -1,5 +1,5 @@
 $(document).ready(function(){ 
-    $(".button").click(function(){
+    $(".button_clicked").click(function(){
         $(".modal").css("display","block");
     });
    

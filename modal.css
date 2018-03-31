@@ -6,13 +6,13 @@ body{
   background-size: cover;
   margin: 5vh 5vw;
 }
-.button{
+.button_clicked{
     background: none;
     color:white;
     border:0;
     font-size:2rem; 
 }
-.button:hover{
+.button_clicked:hover{
     text-shadow: 2px 2px 5px black;
     text-decoration: underline;
 }

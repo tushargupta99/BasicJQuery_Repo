@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".logo").click(function(){
+    $(".apple_logo").click(function(){
        $(".navbar_item").fadeToggle();
     });
 });
